@@ -15,14 +15,14 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, num3;
+    int num1 , num2 , num3 ;
 
-    printf("Enter 3 numbers: ");
-    scanf("%d %d %d", &num1, &num2, &num3);
+    printf( "Enter 3 numbers: ") ;
+    scanf( "%d %d %d" , &num1 , &num2 , &num3) ;
 
-    int sum = num1 + num2 + num3;
+    int sum = num1 + num2 + num3 ;
 
-    printf("Answer = %d\n", sum);
+    printf( "Answer = %d\n" , sum) ; 
 
     return 0;
-}
+}//end main fuction
